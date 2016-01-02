@@ -154,9 +154,11 @@ header {
     width: 100%;
     min-height: auto;
     @include background-cover;
+    background-color: black;
     background-position: center;
     background-image: url('../img/pons-fleischmann-cold-fusion.jpg');
     text-align: center;
+    opacity: 1;
     color: white;
     .header-content {
         position: relative;
@@ -195,7 +197,7 @@ header {
                 margin-left: auto;
                 margin-right: auto;
                 p {
-                    font-size: 18px;
+                    font-size: 15px;
                     max-width: 80%;
                     margin-left: auto;
                     margin-right: auto;
